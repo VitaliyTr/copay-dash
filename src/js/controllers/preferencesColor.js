@@ -11,7 +11,7 @@ angular.module('copayApp.controllers').controller('preferencesColorController', 
         '#29BB9C',
         '#019477',
         '#77DADA',
-        '#4A90E2',
+        '#1d71b8',
         '#484ED3',
         '#9B59B6',
         '#E856EF',
@@ -24,7 +24,7 @@ angular.module('copayApp.controllers').controller('preferencesColorController', 
   var config = configService.getSync();
   config.colorFor = config.colorFor || {};
 
-  $scope.currentColor = config.colorFor[walletId] || '#4A90E2';
+  $scope.currentColor = config.colorFor[walletId] || '#1d71b8';
 
   $scope.save = function(color) {
     var opts = {

@@ -571,7 +571,7 @@ angular.module('copayApp.controllers').controller('indexController', function($r
   self.updateColor = function() {
     var config = configService.getSync();
     config.colorFor = config.colorFor || {};
-    self.backgroundColor = config.colorFor[self.walletId] || '#4A90E2';
+    self.backgroundColor = config.colorFor[self.walletId] || '#1d71b8';
     var fc = profileService.focusedClient;
     fc.backgroundColor = self.backgroundColor;
     if (isCordova && StatusBar.isVisible) {

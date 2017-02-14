@@ -89,7 +89,7 @@ h4.title a {
     top: -5px !important;
   }
   h4 {
-    background: #F6F7F9;
+    background: #e3e3e3;
     padding: 25px 0px 5px 10px;
     text-transform: uppercase;
     color: #555;
@@ -100,7 +100,7 @@ h4.title a {
 }
 
 .modal-content h4, .glidera h4, .coinbase h4, .amazon h4 {
-  background: #F6F7F9;
+  background: #e3e3e3;
   padding: 25px 0px 5px 10px;
   text-transform: uppercase;
   color: #555;
@@ -260,7 +260,7 @@ a {
 
 .page, .main {
   height: 100%;
-  background-color: #F6F7F9;
+  background-color: #e3e3e3;
 }
 
 .waiting {
@@ -272,7 +272,7 @@ a {
 }
 
 .main {
-  background-color: #F6F7F9;
+  background-color: #e3e3e3;
   padding: 0 0 58px 0;
   position: relative;
 }
@@ -421,7 +421,7 @@ ul.tx-copayers {
     margin-bottom: 2rem;
   }
   .tab-bar {
-    background: #F6F7F9;
+    background: #e3e3e3;
     border-bottom: none;
   }
 }
@@ -2001,7 +2001,7 @@ to prevent collapsing during animation*/
   height: 100%;
   width: 100%;
   -webkit-transform: translate3d(0, 0, 0);
-  background: #f6f7f9;
+  background: #e3e3e3;
 }
 
 body.modal-open {
@@ -2042,9 +2042,9 @@ body.modal-open {
   background: rgba(24, 44, 58, 0.9);
   i {
     font-size: 5rem;
-    color: #4A90E2;
+    color: #1d71b8;
     border-radius: 100%;
-    border-color: #4A90E2;
+    border-color: #1d71b8;
     border: 2px solid;
     width: 150px;
     height: 150px;
@@ -2056,9 +2056,9 @@ body.modal-open {
 
 .popup-txsigned i, .popup-txrejected i {
   font-size: 5rem;
-  color: #4A90E2;
+  color: #1d71b8;
   border-radius: 100%;
-  border-color: #4A90E2;
+  border-color: #1d71b8;
   border: 2px solid;
   width: 150px;
   height: 150px;
@@ -2182,7 +2182,7 @@ body.modal-open {
 // No looks likes locked
 input[type="number"] {
   &[readonly] {
-    background-color: #F6F7F9;
+    background-color: #e3e3e3;
     padding-left: 0;
   }
 }
